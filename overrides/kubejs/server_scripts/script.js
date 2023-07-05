@@ -19,6 +19,19 @@ ServerEvents.recipes(event => {
 	], {
 		C: 'kubejs:iron_coin'
 	})
+	
+	event.shaped('minecraft:bell', [
+		'SIS',
+		'SGS',
+		'S S'
+	], {
+		G: 'minecraft:gold_block',
+		I: 'minecraft:iron_ingot',
+		S: 'minecraft:stick'
+	})
+	
+	// We want the backpack to only be purchase-able
+	event.remove({output: 'backpacked:backpack'});
 })
 
 ServerEvents.tags('item', event => {
