@@ -1,0 +1,224 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 2, 2023, 9:50:31 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+- upgrade_aquatic:thrasher (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:great_thrasher (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#endergetic:not_balloon_attachable
+- upgrade_aquatic:flare (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- savage_and_ravage:iceologer (from savage_and_ravage-1.19.2-5.0.4.jar)
+- rottencreatures:frostbitten (from rottencreatures-forge-1.19.2-1.0.1.jar)
+
+#environmental:muddy_projectiles
+- environmental:mud_ball? (from neapolitan-1.19.2-4.0.2.jar)
+
+#neapolitan:unaffected_by_slipping
+- neapolitan:chimpanzee (from neapolitan-1.19.2-4.0.2.jar)
+- neapolitan:plantain_spider (from neapolitan-1.19.2-4.0.2.jar)
+
+#neapolitan:explosion_heals_in_strawberry
+- minecraft:creeper (from neapolitan-1.19.2-4.0.2.jar)
+- savage_and_ravage:creepie? (from neapolitan-1.19.2-4.0.2.jar)
+
+#neapolitan:scares_chimpanzees
+- minecraft:dragon_fireball (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:evoker_fangs (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:fireball (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:firework_rocket (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:lightning_bolt (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:small_fireball (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:tnt (from neapolitan-1.19.2-4.0.2.jar)
+- minecraft:wither_skull (from neapolitan-1.19.2-4.0.2.jar)
+
+#naturalist:lion_hostiles
+- naturalist:rhino (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:zebra (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:boar (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:horse (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#naturalist:bear_hostiles
+- minecraft:salmon (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:cod (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:bass (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:deer (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#neapolitan:unaffected_by_harmony
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+- naturalist:firefly (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:dragonfly (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#savage_and_ravage:creeper_immune
+- minecraft:painting (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:item_frame (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:glow_item_frame (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:falling_block (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:leash_knot (from savage_and_ravage-1.19.2-5.0.4.jar)
+- minecraft:armor_stand (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#forge:fishes
+- minecraft:cod (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:salmon (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:pufferfish (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:tropical_fish (from blueprint-1.19.2-6.1.2.jar)
+
+#farmersdelight:horse_feed_users
+- minecraft:horse (from FarmersDelight-1.19-1.2.1.jar)
+- minecraft:skeleton_horse (from FarmersDelight-1.19-1.2.1.jar)
+- minecraft:zombie_horse (from FarmersDelight-1.19-1.2.1.jar)
+- minecraft:donkey (from FarmersDelight-1.19-1.2.1.jar)
+- minecraft:mule (from FarmersDelight-1.19-1.2.1.jar)
+- minecraft:llama (from FarmersDelight-1.19-1.2.1.jar)
+
+#neapolitan:chimpanzee_dart_targets
+- endergetic:bolloom_fruit? (from neapolitan-1.19.2-4.0.2.jar)
+- endergetic:bolloom_balloon? (from neapolitan-1.19.2-4.0.2.jar)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+- savage_and_ravage:griefer (from savage_and_ravage-1.19.2-5.0.4.jar)
+- savage_and_ravage:executioner (from savage_and_ravage-1.19.2-5.0.4.jar)
+- savage_and_ravage:iceologer (from savage_and_ravage-1.19.2-5.0.4.jar)
+- savage_and_ravage:trickster (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)
+- upgrade_aquatic:pike (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:perch (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:lionfish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#farmersdelight:dog_food_users
+- minecraft:wolf (from FarmersDelight-1.19-1.2.1.jar)
+
+#naturalist:deer_predators
+- naturalist:bear (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#forge:milkable
+- minecraft:cow (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:mooshroom (from blueprint-1.19.2-6.1.2.jar)
+- minecraft:goat (from blueprint-1.19.2-6.1.2.jar)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- savage_and_ravage:spore_cloud (from savage_and_ravage-1.19.2-5.0.4.jar)
+- savage_and_ravage:confusion_bolt (from savage_and_ravage-1.19.2-5.0.4.jar)
+- atmospheric:passionfruit_seed (from atmospheric-1.19.2-5.0.0.jar)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+- savage_and_ravage:skeleton_villager (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#minecolonies:hostile
+- minecraft:slime (from minecolonies-1.19.2-1.0.1351-RELEASE.jar)
+
+#savage_and_ravage:creepers
+- minecraft:creeper (from savage_and_ravage-1.19.2-5.0.4.jar)
+
+#naturalist:alligator_hostiles
+- minecraft:pig (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:cow (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:sheep (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:deer (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:catfish (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#upgrade_aquatic:thrasher_sonar_targets
+- minecraft:cod (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:salmon (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:tropical_fish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:dolphin (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- minecraft:axolotl (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:perch (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:pike (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:nautilus (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- #upgrade_aquatic:jellyfish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#naturalist:catfish_hostiles
+- minecraft:tropical_fish (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:cod (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:tadpole (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:bass (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+- savage_and_ravage:mischief_arrow (from savage_and_ravage-1.19.2-5.0.4.jar)
+- neapolitan:bananarrow (from neapolitan-1.19.2-4.0.2.jar)
+
+#naturalist:snake_hostiles
+- minecraft:rabbit (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:chicken (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:silverfish (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:snail (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+
+#neapolitan:plantain_spiders_can_replace
+- minecraft:spider (from neapolitan-1.19.2-4.0.2.jar)
+
+#minecolonies:mob_attack_blacklist
+- minecraft:enderman (from minecolonies-1.19.2-1.0.1351-RELEASE.jar)
+- minecraft:llama (from minecolonies-1.19.2-1.0.1351-RELEASE.jar)
+
+#naturalist:vulture_hostiles
+- minecraft:zombie (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:zombie_villager (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:husk (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:zombified_piglin (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:zoglin (from naturalist-forge-3.0.3a-1.19.2.jar)
+- minecraft:zombie_horse (from naturalist-forge-3.0.3a-1.19.2.jar)
+
+#forge:bosses
+- minecraft:ender_dragon (from forge-1.19.2-43.2.0-universal.jar)
+- minecraft:wither (from forge-1.19.2-43.2.0-universal.jar)
+
+#upgrade_aquatic:jellyfish
+- upgrade_aquatic:box_jellyfish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:cassiopea_jellyfish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+- upgrade_aquatic:immortal_jellyfish (from upgrade_aquatic-1.19.2-5.0.0.jar)
+
+#naturalist:boar_hostiles
+- naturalist:snake (from naturalist-forge-3.0.3a-1.19.2.jar)
+- naturalist:snail (from naturalist-forge-3.0.3a-1.19.2.jar)

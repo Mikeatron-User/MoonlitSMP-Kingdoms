@@ -1,0 +1,12 @@
+{
+	icon: "kubejs:gold_coin"
+	id: "206A613805A72C9E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 5, item: "kubejs:copper_coin", random_bonus: 5, weight: 60.0f }
+		{ count: 2, item: "kubejs:iron_coin", random_bonus: 2, weight: 30.0f }
+		{ item: "kubejs:gold_coin", random_bonus: 1, weight: 10.0f }
+	]
+	title: "Random Money Reward"
+}

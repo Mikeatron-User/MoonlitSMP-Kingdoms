@@ -1,0 +1,15 @@
+{
+	id: "55CB252C6E895157"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 32, item: "minecraft:spruce_log" }
+		{ count: 32, item: "minecraft:birch_log" }
+		{ count: 32, item: "minecraft:acacia_log" }
+		{ count: 32, item: "minecraft:dark_oak_log" }
+		{ count: 32, item: "minecraft:mangrove_log" }
+		{ count: 64, item: "minecraft:stick" }
+	]
+	title: "Random Wood Reward"
+}

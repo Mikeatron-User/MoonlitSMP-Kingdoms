@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:diamond"
+	id: "70B1872B3B43AC22"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 16, item: "minecraft:iron_ore" }
+		{ count: 16, item: "minecraft:coal_ore" }
+		{ count: 16, item: "minecraft:copper_ore" }
+		{ count: 16, item: "minecraft:gold_ore" }
+		{ count: 32, item: "minecraft:redstone_ore" }
+		{ count: 16, item: "minecraft:lapis_ore" }
+		{ count: 16, item: "minecraft:emerald_ore" }
+		{ count: 16, item: "minecraft:diamond_ore", weight: 0.5f }
+	]
+	title: "Random Resource Reward"
+}

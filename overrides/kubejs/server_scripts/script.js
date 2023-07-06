@@ -4,10 +4,9 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 ServerEvents.recipes(event => {
 	// Change recipes here
+	event.shapeless('kubejs:iron_coin', ['kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin'])
 	
-	event.shapeless(item.of('kubejs:iron_coin', 1), ['kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin'])
-	
-	event.shapeless(item.of('kubejs:gold_coin', 1), ['kubejs:iron_coin', 'kubejs:iron_coin'])
+	event.shapeless('kubejs:gold_coin', ['kubejs:iron_coin', 'kubejs:iron_coin', 'kubejs:iron_coin', 'kubejs:iron_coin', 'kubejs:iron_coin'])
 	
 	event.shaped('minecraft:bell', [
 		'SIS',
