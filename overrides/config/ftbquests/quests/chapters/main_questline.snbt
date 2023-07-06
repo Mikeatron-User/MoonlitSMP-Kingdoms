@@ -1,0 +1,611 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_questline"
+	group: "3C090F8D0C41DA47"
+	id: "77D5DECF845BADC3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3779F7F179FFF083"]
+			id: "0ABA0322F6254C02"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65F0F2B68EF4D398"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E685E13F814393F"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31B1C3094553FCB1"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "241B9FB3BABEF848"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0ABA0322F6254C02"]
+			id: "24D6A249D42AE2D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "166FF00FE584BB08"
+				table_id: 6182075786259419479L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09A7A32FB0665BF0"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3779F7F179FFF083"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49586E8C8C45045A"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "435DE08E8B5974F5"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1F0C0397265E26EC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["545172AD4A0C6278"]
+			id: "6813D28BA79D0C24"
+			rewards: [
+				{
+					count: 16
+					id: "728ACF5355FF41EC"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71CA05E031C5F511"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32DDA9D91B274A54"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "21EA3D2C645A6598"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6813D28BA79D0C24"]
+			id: "5C030C699A674825"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3632AFA6B800CFC2"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D44CB5F190301A2"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2751B31E5280A513"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0664DB8B687FC8D4"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7840D890B0EA6655"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C030C699A674825"]
+			id: "600E98500351DB94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64C951F7A4E78181"
+				table_id: 8936138878118148852L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D407C7CAD5EA0AF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24D6A249D42AE2D4"]
+			id: "66C548B5004584DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D836C5729BEA8CE"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31536F7434637E15"
+					table_id: 8936138878118148852L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "794A997F6BD5F32F"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C328FADE95D6341"]
+			id: "72EB1485C55511B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05D3E7646B8C9318"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CC3C02A81B4E35F"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4BB9899B4CD3E5E9"
+				item: "magistuarmory:steel_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5C030C699A674825"]
+			id: "47BB0F944651F485"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C508454A4BAF3D1"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "705F1E7916F94031"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "66C770368864E945"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["47BB0F944651F485"]
+			id: "7F0FACD9B765A6EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "658C9F55A990D029"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3594355F09D03C94"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "45363E5C203FA562"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C030C699A674825"]
+			id: "1B162F55A0AE5F82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19B2D5BE8CAED72A"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F5BA39E324D6B7F"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1FE19BCAF20AB686"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C030C699A674825"]
+			id: "73EACCAA80A1F642"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ECF3E735AE8FEE1"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A925887ACEC505E"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "52BA274B0081748D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6813D28BA79D0C24"]
+			id: "669EDD77BDF323AC"
+			rewards: [
+				{
+					count: 8
+					id: "3E80F530B406C119"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71A197EB6DF437AC"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "34A31DDB09A81EF1"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["669EDD77BDF323AC"]
+			id: "2B9BC889E633F946"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CCB05E253450240"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6037DB95EF451A86"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5D425415D3D1CA08"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66C548B5004584DC"]
+			id: "545172AD4A0C6278"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "752E591242A87F8D"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63DF51D7DB9071FD"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B6C31F1FFF7BAE5"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "63BB6FC747EF87B4"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["600E98500351DB94"]
+			id: "5C328FADE95D6341"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41AC551959E7DE3A"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32882924556732ED"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "28D6030AE3155642"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"73EACCAA80A1F642"
+				"47BB0F944651F485"
+				"1B162F55A0AE5F82"
+			]
+			dependency_requirement: "one_completed"
+			id: "5C70B06087D92E3B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E328FFA1BE6791B"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "366A790BA4D1E5A8"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63FB9D9E90939B77"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "77234F526C6F53DA"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["684930A38C82FC2E"]
+			id: "640CB246CC953662"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41292418ADC7BF32"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43631E140B41E8C0"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "519D935721994A40"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E6EC39318104A38"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6485B59A6C58A04F"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "3ABB3230F3B88444"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any #forge:bookshelves"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5C70B06087D92E3B"]
+			id: "684930A38C82FC2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31855626C7EB3AA5"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "691701991CF0CB7F"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2248490CBBB03EBD"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["72EB1485C55511B7"]
+			id: "2F6F527E9DD989EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D2D9370EDF44C2A"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A91F5A6D2716002"
+					table_id: 2335786249985928350L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B13F33A0BAB639D"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "4E883C47717C5F1D"
+					item: "magistuarmory:steel_ring"
+					type: "item"
+				}
+				{
+					id: "084477FFF9F73C34"
+					item: "magistuarmory:steel_chainmail"
+					type: "item"
+				}
+				{
+					id: "418A9116547A2B25"
+					item: "magistuarmory:steel_plate"
+					type: "item"
+				}
+				{
+					id: "2D6084BFD86E0E19"
+					item: "magistuarmory:steel_chain"
+					type: "item"
+				}
+				{
+					id: "74619ECC8AD8EF73"
+					item: "magistuarmory:small_steel_plate"
+					type: "item"
+				}
+			]
+			title: "Steel Armor Components"
+			x: 5.5d
+			y: 12.0d
+		}
+	]
+	title: "Main Questline"
+}
