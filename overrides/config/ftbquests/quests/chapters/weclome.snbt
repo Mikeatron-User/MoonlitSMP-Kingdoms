@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weclome"
+	group: "6285B66DD6BD8C75"
+	id: "6350A1E3EEC6C14F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &lMoonlitSMP Kingdoms&r, a modded minecraft server where you can create your own kingdom or join an existing one! Explore the vast and beautiful world, make alliances or enemies, and compete for resources and glory! Whether you want to be a peaceful farmer, a brave warrior, or a cunning leader, you can find your place in MoonlitSMP Kingdoms. "
+				""
+				"&aDon't forget to have fun!&r"
+			]
+			icon: {
+				Count: 1b
+				id: "magistuarmory:steel_bastardsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A8F1E1A3D05888B"
+			rewards: [
+				{
+					id: "662476EFD35052B8"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					id: "4FD71317C0C05EEF"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Introductory"
+			tasks: [{
+				id: "505B8DB62A7E7D0C"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Welcome to MoonLitSMP Kingdoms!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A8F1E1A3D05888B"]
+			description: [
+				"Your main goal in MoonlitSMP Kingdoms should be to create a thriving kingdom. "
+				""
+				"Kingdoms will have different specific goals and aspirations, but they all share a passion for creating and exploring a vast and diverse world. Some players aim to conquer and rule over other kingdoms, using their military and diplomatic skills. "
+				""
+				"Others focus on trade and wealth, establishing profitable alliances and markets. Some players seek to build architectural wonders, showcasing their creativity and talent. Some players enjoy cultivating the land, growing crops and animals. "
+				""
+				"Whatever their goals, be sure to make your kingdom thrive."
+			]
+			icon: "minecraft:emerald"
+			id: "248959FE49CAA0FD"
+			rewards: [{
+				id: "7BBF08E049E82716"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "What is the goal?"
+			tasks: [{
+				id: "7E2E9B5BBBA039D2"
+				type: "checkmark"
+			}]
+			title: "Goals"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "Weclome!"
+}
