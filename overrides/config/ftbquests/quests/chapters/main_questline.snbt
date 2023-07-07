@@ -163,12 +163,20 @@
 		{
 			dependencies: ["5C030C699A674825"]
 			id: "600E98500351DB94"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "64C951F7A4E78181"
-				table_id: 8936138878118148852L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64C951F7A4E78181"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13EB4FC24F192D84"
+					table_id: 6182075786259419479L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0D407C7CAD5EA0AF"
 				item: "minecraft:iron_ingot"
@@ -470,7 +478,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["684930A38C82FC2E"]
+			dependencies: ["2927363BADE26F54"]
 			id: "640CB246CC953662"
 			rewards: [
 				{
@@ -519,7 +527,7 @@
 				}
 			]
 			x: -5.0d
-			y: 14.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["5C70B06087D92E3B"]
@@ -605,6 +613,530 @@
 			title: "Steel Armor Components"
 			x: 5.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["684930A38C82FC2E"]
+			id: "2927363BADE26F54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0784C499A09393DF"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63638290341EBD54"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54711AED60CCCD1F"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1A78CF7887FFB91F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["600E98500351DB94"]
+			id: "1C2A05869AE26F16"
+			tasks: [{
+				id: "1A83E38F4424620B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:ships"
+					}
+				}
+				title: "Any #smallships:ships"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C2A05869AE26F16"]
+			id: "35D07F177790EBF4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "600233EB0048565A"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5223C87DB97600A3"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED8E6A51ADD9C01"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D70F500C23279F9"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "79EDFF571CB13E4A"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "36A57A2AF236E8CC"
+					item: "smallships:cannon_ball"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72EB1485C55511B7"]
+			id: "03DACD2230302B50"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AA9E5FD461C584E"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52E66630E7121A66"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A5744D223454069"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6700886410E91D2E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapon_steel"
+					}
+				}
+				title: "Any #forge:weapon_steel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7F0FACD9B765A6EB"]
+			id: "6999D90CF5C5666D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F13059374127149"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "387B1BE08F3F48EB"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D5B90354FEA2C5"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5CB23A41073FB952"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapon_gold"
+					}
+				}
+				title: "Any #forge:weapon_gold"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2B9BC889E633F946"]
+			id: "312E2B55376D2EA2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E237AD23847E4B0"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D9227317878F97A"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "594C560E3E7E7FAD"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "00C92C28DD3E7E4E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapon_copper"
+					}
+				}
+				title: "Any #forge:weapon_copper"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5C70B06087D92E3B"]
+			id: "2ED3FB55A93D2A7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "794953005DF7E711"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "360EBF39D9C1AA71"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F7A60A71D2635F"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0029B0AD92FDE3CB"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0AFDF46AB9E1B85F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapon_diamond"
+					}
+				}
+				title: "Any #forge:weapon_diamond"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["600E98500351DB94"]
+			id: "0B5AC2D7247BACB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CA00CCBD362C353"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35EC7CD0612057C5"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AD035A7D22348AD"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "077091ED53574467"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapon_iron"
+					}
+				}
+				title: "Any #forge:weapon_iron"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["600E98500351DB94"]
+			id: "2FE381246548E8BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63A09D2460576B6D"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46A3D20A8F60DC5F"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "755524F27ED87FC8"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "260D3C865801C078"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2EBA01E9EDFE16B5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shield_iron"
+					}
+				}
+				title: "Any #forge:shield_iron"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7F0FACD9B765A6EB"]
+			id: "561B3BADCBD6545C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D58170C8E9C5BE9"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15351FD9131C4FFA"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "77095FAA1187E821"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shield_gold"
+					}
+				}
+				title: "Any #forge:shield_gold"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5C70B06087D92E3B"]
+			id: "6A7E6A63D70A3F27"
+			tasks: [{
+				id: "304D9D4833D69882"
+				item: {
+					Count: 1b
+					id: "magistuarmory:diamond_heatershield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["72EB1485C55511B7"]
+			id: "1AB6A854E7F489D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24522F429138EE76"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6139ECBD5F2E4560"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB269DA28EAD787"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32324785B85FA1EF"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5F7C8482B3716511"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shield_steel"
+					}
+				}
+				title: "Any #forge:shield_steel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2B9BC889E633F946"]
+			id: "6451240D1913AD25"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C45B4CBC5699DC1"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47282BE7CF24086C"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "327003CB1EFC017B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shield_copper"
+					}
+				}
+				title: "Any #forge:shield_copper"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["66C548B5004584DC"]
+			id: "08F6D30B80F6B87B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "408FAAE17A051E06"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F65E8CB2C47C880"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6186CC1D45AA0618"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapon_stone"
+					}
+				}
+				title: "Any #forge:weapon_stone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66C548B5004584DC"]
+			id: "46D0F631913AFC74"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12E8E2C4B2298480"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50251B7552936BE3"
+					table_id: 8936138878118148852L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6B6EAF810ACFFD42"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shield_stone"
+					}
+				}
+				title: "Any #forge:shield_stone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 	title: "Main Questline"

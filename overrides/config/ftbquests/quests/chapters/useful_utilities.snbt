@@ -9,12 +9,20 @@
 	quests: [
 		{
 			id: "517C2AEC17A6E73F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F32DD09A2490B3C"
-				table_id: 6182075786259419479L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F32DD09A2490B3C"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15613EFF8AF80639"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+			]
 			subtitle: "Turn wood into other blocks/items like doors, stairs, slabs, and more with ease."
 			tasks: [{
 				id: "3B136E3B70F885CA"
@@ -34,6 +42,12 @@
 		}
 		{
 			id: "668D029ED6DABC32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E927A430C764FBB"
+				table_id: 2335786249985928350L
+				type: "loot"
+			}]
 			subtitle: "Used for creating banners. Represent your kingdom with pride."
 			tasks: [{
 				id: "32C2BC84BDCF53AC"
@@ -115,12 +129,20 @@
 		}
 		{
 			id: "312471810C507BA7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3F0A0CA331BFDD8A"
-				table_id: 6182075786259419479L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F0A0CA331BFDD8A"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5000794E637821FB"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+			]
 			subtitle: "Used to tell what season it is."
 			tasks: [{
 				id: "2BD3E1093BBEEA49"
@@ -151,6 +173,12 @@
 					id: "747752E41285E2CA"
 					item: "minecraft:torch"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E957DCC361BD9EB"
+					table_id: 2335786249985928350L
+					type: "loot"
 				}
 			]
 			subtitle: "Used to fling torches over long distances."
@@ -200,12 +228,20 @@
 		}
 		{
 			id: "06A07780F54C8F1E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38D504733727A50F"
-				table_id: 8120420222873349154L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D504733727A50F"
+					table_id: 8120420222873349154L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01170871F4C0C440"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+			]
 			subtitle: "Hold arrows. When using a bow, arrows will be taken directly from it."
 			tasks: [{
 				id: "2BF1D568F65BDD6A"
@@ -244,12 +280,20 @@
 		}
 		{
 			id: "51F2388FF75CA0E7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "681BCA3EB9128B79"
-				table_id: 2335786249985928350L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "681BCA3EB9128B79"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B4BED722F07F943"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+			]
 			subtitle: "A more powerful version of the bomb."
 			tasks: [{
 				id: "2DC4725D04AFDD3E"
@@ -261,12 +305,20 @@
 		}
 		{
 			id: "66085100D33D92BE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1ECBFB20CEF5515C"
-				table_id: 6182075786259419479L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ECBFB20CEF5515C"
+					table_id: 6182075786259419479L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1668C6BDE7F0EDEE"
+					table_id: 2335786249985928350L
+					type: "loot"
+				}
+			]
 			subtitle: "A lightsource that is on by default. Controllable by redstone."
 			tasks: [{
 				id: "48F54D42DD6E85FE"
