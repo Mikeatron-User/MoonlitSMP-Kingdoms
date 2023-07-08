@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "buy"
+	group: "1CA4F45B531ACA30"
+	id: "481B84DF0258A7C2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "backpacked:backpack"
+			id: "34CE0D66548C0C09"
+			rewards: [
+				{
+					id: "38D37626D61FACA6"
+					item: "backpacked:backpack"
+					type: "item"
+				}
+				{
+					id: "0D1ED04894EC60D2"
+					item: "backpacked:oak_backpack_shelf"
+					type: "item"
+				}
+			]
+			subtitle: "25¢"
+			tasks: [{
+				consume_items: true
+				id: "6603AF0037EB67C4"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Buy Backpack"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:netherrack"
+			id: "7CEBD77E682F3699"
+			rewards: [
+				{
+					count: 64
+					id: "6060B576C4161A1E"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2DEE781930FB71EA"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+			]
+			subtitle: "1¢"
+			tasks: [{
+				consume_items: true
+				id: "2CFDABA5796BFD43"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Buy Netherack"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:nether_quartz_ore"
+			id: "1CB2A48FE69CD70B"
+			rewards: [{
+				count: 32
+				id: "5A3D20D38D5AF941"
+				item: "minecraft:nether_quartz_ore"
+				type: "item"
+			}]
+			subtitle: "5¢"
+			tasks: [{
+				id: "50C06DA27BC7A734"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "Buy Quartz"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "Buy"
+}
