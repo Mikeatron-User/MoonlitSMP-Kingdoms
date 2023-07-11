@@ -1,0 +1,327 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sell"
+	group: "1CA4F45B531ACA30"
+	id: "7EFB3C11BA6FBF7F"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "minecraft:textures/misc/sell_goods_title.png"
+		rotation: 0.0d
+		width: 11.697142857142858d
+		x: -1.0d
+		y: 1.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "527E86CAD57F6639"
+			rewards: [{
+				count: 2
+				id: "7621AB01BD283BE5"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "10¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2DB3088E280AB238"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/coal"
+					}
+				}
+				title: "Any #forge:ores/coal"
+				type: "item"
+			}]
+			title: "Sell Coal Ore"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "664D303D905E6845"
+			rewards: [{
+				count: 2
+				id: "2E5E37616BC58E74"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "10¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5B236819087C7E69"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/copper"
+					}
+				}
+				title: "Any #forge:ores/copper"
+				type: "item"
+			}]
+			title: "Sell Copper Ore"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "04BE7BCB26436F70"
+			rewards: [{
+				count: 3
+				id: "340A9FD539B5F4A9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "15¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "39C14DB0C6BE50BC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+				title: "Any #forge:ores/iron"
+				type: "item"
+			}]
+			title: "Sell Iron Ore"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "07B0E14373C85594"
+			rewards: [{
+				count: 3
+				id: "45E7103029362520"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "75¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6ECBD6AA6438B8AA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/gold"
+					}
+				}
+				title: "Any #forge:ores/gold"
+				type: "item"
+			}]
+			title: "Sell Gold Ore"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "2128FF9D5DD04AA8"
+			rewards: [{
+				count: 3
+				id: "51BFADAFE24855DF"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "15¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7B7E39D382A5D61B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/redstone"
+					}
+				}
+				title: "Any #forge:ores/redstone"
+				type: "item"
+			}]
+			title: "Sell Redstone Ore"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "22946D6A9EC4ECB7"
+			rewards: [{
+				count: 2
+				id: "325EA330CF0C796D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "10¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7F13DE70604133C8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/lapis"
+					}
+				}
+				title: "Any #forge:ores/lapis"
+				type: "item"
+			}]
+			title: "Sell Lapis Lazuli Ore"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "39D26954E93DEB0F"
+			rewards: [{
+				count: 6
+				id: "6F14C7D4EEF6FB6C"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "150¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "13AB1895C0A2A3C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/emerald"
+					}
+				}
+				title: "Any #forge:ores/emerald"
+				type: "item"
+			}]
+			title: "Sell Emerald Ore"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "561C43338EBC5B15"
+			rewards: [{
+				count: 6
+				id: "0DB2FFD055B22051"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "150¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7782C862EE08CE41"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/diamond"
+					}
+				}
+				title: "Any #forge:ores/diamond"
+				type: "item"
+			}]
+			title: "Sell Diamond Ore"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "5583A9157872AF81"
+			rewards: [{
+				count: 2
+				id: "5860E45D300BA4C5"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "50¢"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "65446099D1194972"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Sell Enderpearls"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "276B613E2306024C"
+			rewards: [{
+				id: "700D65DECB9FF6EA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "25¢"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1D3539FD0B560273"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Sell Gunpowder"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "1BC0AD8BD7ACB5C9"
+			rewards: [{
+				id: "5A0003CA97EBED3B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "25¢"
+			tasks: [{
+				consume_items: true
+				id: "7DE66AF9C8961E90"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			title: "Sell Elder Eye"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "4F733B682E72A355"
+			rewards: [{
+				id: "1E528221E210C6F1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "25¢"
+			tasks: [{
+				consume_items: true
+				id: "312253DF2011F7E2"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Sell Totem of Undying"
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+	title: "Sell"
+}

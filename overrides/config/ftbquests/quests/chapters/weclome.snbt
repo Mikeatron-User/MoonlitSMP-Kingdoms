@@ -3,7 +3,26 @@
 	default_quest_shape: ""
 	filename: "weclome"
 	group: "6285B66DD6BD8C75"
+	icon: {
+		Count: 1b
+		id: "magistuarmory:diamond_shortsword"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "6350A1E3EEC6C14F"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "minecraft:textures/misc/minecraft_title.png"
+		rotation: 0.0d
+		width: 11.88d
+		x: 0.0d
+		y: -2.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -41,7 +60,7 @@
 				type: "checkmark"
 			}]
 			title: "Welcome to MoonLitSMP Kingdoms!"
-			x: 0.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -70,7 +89,34 @@
 			}]
 			title: "Goals"
 			x: 0.0d
-			y: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["248959FE49CAA0FD"]
+			description: ["On the bar to your left, you will see a category for buying and selling goods. Some items cannot be crafted and must be bought. Its a great way to make and spend money."]
+			icon: "kubejs:gold_coin"
+			id: "50C26F11892E2501"
+			rewards: [
+				{
+					id: "7AD64B8FF985FB5C"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "338CB7DD584C5CB7"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Buy and Sell Goods"
+			tasks: [{
+				id: "2CB358ECE89D379D"
+				type: "checkmark"
+			}]
+			title: "The Store System"
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "Weclome!"

@@ -3,7 +3,22 @@
 	default_quest_shape: ""
 	filename: "main_questline"
 	group: "3C090F8D0C41DA47"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:grass_block"
 	id: "77D5DECF845BADC3"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.0d
+		hover: [ ]
+		image: "minecraft:textures/misc/main_quests_title.png"
+		rotation: 0.0d
+		width: 27.36d
+		x: 0.0d
+		y: -8.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

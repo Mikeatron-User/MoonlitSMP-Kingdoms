@@ -1,0 +1,9 @@
+
+#General configuration settings
+[General]
+	#Use F3+H to show tooltips and get the name of the item, place it here. It get delete. Example: ["minecraft:stone"]
+	#or if you need to ban multiple ["minecraft:stone", "minecraft:dirt"]
+	"Items To Delete" = ["minecraft:golden_helmet", "minecraft:golden_chestplate", "minecraft:golden_leggings", "minecraft:golden_boots", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots"]
+	#Enables/Disables the constant removal of items.
+	"Is it on?" = true
+

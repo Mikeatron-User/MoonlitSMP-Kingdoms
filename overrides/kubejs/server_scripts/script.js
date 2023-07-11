@@ -6,6 +6,10 @@ ServerEvents.recipes(event => {
 	// Change recipes here
 	event.shapeless('kubejs:iron_coin', ['kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin'])
 	
+	event.shapeless('5x kubejs:copper_coin', 'kubejs:iron_coin')
+	
+	event.shapeless('5x kubejs:iron_coin', 'kubejs:gold_coin')
+	
 	event.shapeless('kubejs:gold_coin', ['kubejs:iron_coin', 'kubejs:iron_coin', 'kubejs:iron_coin', 'kubejs:iron_coin', 'kubejs:iron_coin'])
 	
 	event.shaped('minecraft:bell', [
@@ -20,6 +24,24 @@ ServerEvents.recipes(event => {
 	
 	// We want the backpack to only be purchase-able
 	event.remove({output: 'backpacked:backpack'});
+	
+	// Remove gold armor recipes
+	event.remove({output: 'minecraft:golden_helmet'});
+    event.remove({output: 'minecraft:golden_chestplate'});
+    event.remove({output: 'minecraft:golden_leggings'});
+    event.remove({output: 'minecraft:golden_boots'});
+
+    // Remove diamond armor recipes
+    event.remove({output: 'minecraft:diamond_helmet'});
+    event.remove({output: 'minecraft:diamond_chestplate'});
+    event.remove({output: 'minecraft:diamond_leggings'});
+    event.remove({output: 'minecraft:diamond_boots'});
+
+    // Remove netherite armor recipes
+    event.remove({output: 'minecraft:netherite_helmet'});
+    event.remove({output: 'minecraft:netherite_chestplate'});
+    event.remove({output: 'minecraft:netherite_leggings'});
+    event.remove({output: 'minecraft:netherite_boots'});
 })
 
 ServerEvents.tags('item', event => {

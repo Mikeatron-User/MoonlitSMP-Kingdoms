@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "useful_utilities"
 	group: "3C090F8D0C41DA47"
+	icon: "backpacked:backpack"
 	id: "6E5C3AEE273B1925"
 	order_index: 0
 	quest_links: [ ]
