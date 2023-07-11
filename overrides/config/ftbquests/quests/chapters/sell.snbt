@@ -13,7 +13,7 @@
 		image: "minecraft:textures/misc/sell_goods_title.png"
 		rotation: 0.0d
 		width: 11.697142857142858d
-		x: -1.0d
+		x: -2.5d
 		y: 1.0d
 	}]
 	order_index: 1
@@ -247,12 +247,11 @@
 			can_repeat: true
 			id: "5583A9157872AF81"
 			rewards: [{
-				count: 2
 				id: "5860E45D300BA4C5"
 				item: "kubejs:gold_coin"
 				type: "item"
 			}]
-			subtitle: "50¢"
+			subtitle: "25¢"
 			tasks: [{
 				consume_items: true
 				count: 16L
@@ -261,28 +260,8 @@
 				type: "item"
 			}]
 			title: "Sell Enderpearls"
-			x: -4.5d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
-			id: "276B613E2306024C"
-			rewards: [{
-				id: "700D65DECB9FF6EA"
-				item: "kubejs:gold_coin"
-				type: "item"
-			}]
-			subtitle: "25¢"
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "1D3539FD0B560273"
-				item: "minecraft:gunpowder"
-				type: "item"
-			}]
-			title: "Sell Gunpowder"
-			x: -4.5d
-			y: 4.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -320,6 +299,206 @@
 			}]
 			title: "Sell Totem of Undying"
 			x: 1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "29734DB39F808998"
+			rewards: [{
+				id: "710DDF3F80D3877C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "1¢"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "4EA03A82DB9B5738"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "15F7A86859A9129E"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5097EC6DC8E5F394"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "Sell Carrots"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "584842A52D36422F"
+			rewards: [{
+				id: "2423809140C64B20"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "1¢"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "73E407F321CAFA17"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3517475ADA791ACC"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1241AD9C28343854"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			title: "Sell Potatos"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "440479BE094BE21C"
+			rewards: [{
+				id: "5A02855AF2B06639"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "1¢"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "2945E1CE39FF7524"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "03B62308E660E728"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3B7822E48C7B653C"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			title: "Sell Wheat"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "4390525316BD2681"
+			rewards: [{
+				id: "7C07C8AD7DA45436"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "1¢"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "7DB1DC88066CCA94"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "34232E5798501748"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "04C5675E0214CCAD"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+			]
+			title: "Sell Beetroots"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "5773491C8492B5DE"
+			rewards: [{
+				id: "6F2A2DE07B2C28EA"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "5¢"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "62D91E38C00D5D20"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "Sell Pumpkins"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "6CCE09A3622AA674"
+			rewards: [{
+				id: "516A51EDCC120698"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "1¢"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "209E8B5E476E4632"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "206A726DB3CF1B70"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0FF2E4FF52114E17"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+			]
+			title: "Sell Coco Beans"
+			x: -4.5d
 			y: 4.0d
 		}
 	]

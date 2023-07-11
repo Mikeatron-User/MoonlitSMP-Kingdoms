@@ -1227,11 +1227,11 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			subtitle: "1¢"
+			subtitle: "5¢"
 			tasks: [{
 				consume_items: true
 				id: "1E26005FE62CDFC9"
-				item: "kubejs:copper_coin"
+				item: "kubejs:iron_coin"
 				type: "item"
 			}]
 			title: "Buy Pumpkins"
