@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MoonlitSMP Kingdoms",
-  "version": "0.3.4",
+  "version": "1",
   "author": "",
   "files": [
     {
@@ -100,11 +100,6 @@
       "required": true
     },
     {
-      "projectID": 615975,
-      "fileID": 3763531,
-      "required": true
-    },
-    {
       "projectID": 637808,
       "fileID": 4468049,
       "required": true
@@ -135,11 +130,6 @@
       "required": true
     },
     {
-      "projectID": 696109,
-      "fileID": 4062969,
-      "required": true
-    },
-    {
       "projectID": 452834,
       "fileID": 4557316,
       "required": true
@@ -167,6 +157,11 @@
     {
       "projectID": 532127,
       "fileID": 4278509,
+      "required": true
+    },
+    {
+      "projectID": 496030,
+      "fileID": 4591065,
       "required": true
     },
     {
@@ -435,11 +430,6 @@
       "required": true
     },
     {
-      "projectID": 316582,
-      "fileID": 3920717,
-      "required": true
-    },
-    {
       "projectID": 682515,
       "fileID": 4441304,
       "required": true
@@ -490,6 +480,11 @@
       "required": true
     },
     {
+      "projectID": 517272,
+      "fileID": 4409377,
+      "required": true
+    },
+    {
       "projectID": 573708,
       "fileID": 4554943,
       "required": true
@@ -502,6 +497,16 @@
     {
       "projectID": 245211,
       "fileID": 3965693,
+      "required": true
+    },
+    {
+      "projectID": 448367,
+      "fileID": 4103620,
+      "required": true
+    },
+    {
+      "projectID": 354339,
+      "fileID": 3943067,
       "required": true
     },
     {
@@ -542,6 +547,11 @@
     {
       "projectID": 317780,
       "fileID": 4594982,
+      "required": true
+    },
+    {
+      "projectID": 443570,
+      "fileID": 4634770,
       "required": true
     },
     {
