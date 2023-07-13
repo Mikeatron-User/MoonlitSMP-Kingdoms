@@ -13,7 +13,7 @@
 		image: "minecraft:textures/misc/buy_goods_title.png"
 		rotation: 0.0d
 		width: 26.85d
-		x: -3.0d
+		x: -4.5d
 		y: -3.0d
 	}]
 	order_index: 0
@@ -723,10 +723,11 @@
 				type: "item"
 			}]
 			title: "Buy Cobblestone"
-			x: 6.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			icon: "minecraft:diorite"
 			id: "49B00303B754E484"
 			rewards: [{
@@ -743,7 +744,7 @@
 				type: "item"
 			}]
 			title: "Buy Diorite"
-			x: 7.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -764,7 +765,7 @@
 				type: "item"
 			}]
 			title: "Buy Granite"
-			x: 6.0d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -785,7 +786,7 @@
 				type: "item"
 			}]
 			title: "Buy Andesite"
-			x: 7.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -806,7 +807,7 @@
 				type: "item"
 			}]
 			title: "Buy Cobbled Deepslate"
-			x: 6.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -827,7 +828,7 @@
 				type: "item"
 			}]
 			title: "Buy Oak Logs"
-			x: 7.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -849,7 +850,7 @@
 				weak_nbt_match: true
 			}]
 			title: "Buy Spruce Logs"
-			x: 6.0d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -870,7 +871,7 @@
 				type: "item"
 			}]
 			title: "Buy Birch Logs"
-			x: 7.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -891,7 +892,7 @@
 				type: "item"
 			}]
 			title: "Buy Jungle Logs"
-			x: 8.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -912,7 +913,7 @@
 				type: "item"
 			}]
 			title: "Buy Acacia Logs"
-			x: 7.0d
+			x: -3.0d
 			y: 4.0d
 		}
 		{
@@ -933,7 +934,7 @@
 				type: "item"
 			}]
 			title: "Buy Dark Oak Logs"
-			x: 6.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -954,7 +955,7 @@
 				type: "item"
 			}]
 			title: "Buy Mangrove Logs"
-			x: 8.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -983,7 +984,7 @@
 				type: "item"
 			}]
 			title: "Buy Dirt"
-			x: 8.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -1004,7 +1005,7 @@
 				type: "item"
 			}]
 			title: "Buy Gravel"
-			x: 8.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -1025,7 +1026,7 @@
 				type: "item"
 			}]
 			title: "Buy Sand"
-			x: 8.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -1067,7 +1068,7 @@
 				type: "item"
 			}]
 			title: "Buy Clay Blocks"
-			x: 6.0d
+			x: -4.0d
 			y: 5.0d
 		}
 		{
@@ -1088,7 +1089,7 @@
 				type: "item"
 			}]
 			title: "Buy Slime Blocks"
-			x: 7.0d
+			x: -3.0d
 			y: 5.0d
 		}
 		{
@@ -1110,300 +1111,6 @@
 			}]
 			title: "Buy Netherwart"
 			x: -9.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:wheat"
-			id: "4579BF458BE8EFF1"
-			rewards: [{
-				count: 16
-				id: "10D0699918321842"
-				item: "minecraft:wheat"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "1BEF12C41647674F"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Wheat"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:carrot"
-			id: "3A339EF903E9CC43"
-			rewards: [{
-				count: 16
-				id: "7CC6D862063C17CB"
-				item: "minecraft:carrot"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "5173E17DA400BD32"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Carrots"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:potato"
-			id: "76094954BC2AB8A1"
-			rewards: [{
-				count: 16
-				id: "47919BB6E3EE1A73"
-				item: "minecraft:potato"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "0B1A6B699E997738"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Potatos"
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:beetroot"
-			id: "04621EE9AE289C68"
-			rewards: [{
-				count: 16
-				id: "536FC91DC5FCCEC5"
-				item: "minecraft:beetroot"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "51F76A0D5EA402BD"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Beetroots"
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:apple"
-			id: "2861D247C6D6E41F"
-			rewards: [{
-				count: 16
-				id: "110465287F29761F"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "069818C4C3DB7117"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Apples"
-			x: -3.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:pumpkin"
-			id: "7595FF3F2F6D5EE0"
-			rewards: [{
-				count: 16
-				id: "31D1341203480826"
-				item: "minecraft:pumpkin"
-				type: "item"
-			}]
-			subtitle: "5¢"
-			tasks: [{
-				consume_items: true
-				id: "1E26005FE62CDFC9"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			title: "Buy Pumpkins"
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:bamboo"
-			id: "52C0BDC1350233AA"
-			rewards: [{
-				count: 16
-				id: "0E16DC9DB50E6E55"
-				item: "minecraft:bamboo"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "3D2941FEA2173938"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Bamboo"
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:sugar_cane"
-			id: "0B74C4D897506EAA"
-			rewards: [{
-				count: 16
-				id: "6C39B1B3DED122A5"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "57A5784715DFB339"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Sugarcane"
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:melon_slice"
-			id: "49BE270E64DF8011"
-			rewards: [{
-				count: 16
-				id: "60A25E5325E69FF5"
-				item: "minecraft:melon_slice"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "628E8F7C1DB004BF"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Melon Slices"
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:cocoa_beans"
-			id: "2A07905186CACA65"
-			rewards: [{
-				count: 16
-				id: "147B28A0468828CE"
-				item: "minecraft:cocoa_beans"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "03FC6157CEB69CB8"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Coco Beans"
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:leather"
-			id: "25358C201D8CE588"
-			rewards: [{
-				count: 16
-				id: "3DACE63F4C57E4F0"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "1ADE877C0B24F93D"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Leather"
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:white_wool"
-			id: "0820449249F3FDF8"
-			rewards: [{
-				count: 16
-				id: "6AD7236C9D5F1456"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "16AB3575D489E4B9"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Wool"
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:chicken"
-			id: "16E571254DFEC3CB"
-			rewards: [{
-				count: 8
-				id: "156B9414BD2BD359"
-				item: "minecraft:chicken"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "28105D6D59851D0B"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Chicken"
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:mutton"
-			id: "5C38F077BB0562CF"
-			rewards: [{
-				count: 8
-				id: "02DB47BF9B67E41A"
-				item: "minecraft:mutton"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "2D30EA7CE9E3AFB8"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Mutton"
-			x: -3.0d
 			y: 4.0d
 		}
 		{
@@ -1471,69 +1178,6 @@
 		}
 		{
 			can_repeat: true
-			icon: "minecraft:porkchop"
-			id: "1DDB27E75349398C"
-			rewards: [{
-				count: 16
-				id: "08343D1EDCA31D7F"
-				item: "minecraft:porkchop"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "547C1572CD463FCB"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Porkchop"
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:cod"
-			id: "27499EEBE645530E"
-			rewards: [{
-				count: 16
-				id: "11DA1B3DCEE0ABAF"
-				item: "minecraft:cod"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "0A66CC3018F47D44"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Cod"
-			x: -2.0d
-			y: 5.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:salmon"
-			id: "5D8B60D82489CACB"
-			rewards: [{
-				count: 16
-				id: "0725D4E85734F18A"
-				item: "minecraft:salmon"
-				type: "item"
-			}]
-			subtitle: "1¢"
-			tasks: [{
-				consume_items: true
-				id: "72545C4A2DD912F1"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			title: "Buy Salmon"
-			x: -3.0d
-			y: 5.0d
-		}
-		{
-			can_repeat: true
 			icon: "minecraft:lead"
 			id: "0BB0F4C65CCD79C4"
 			rewards: [{
@@ -1558,7 +1202,7 @@
 			icon: "minecraft:name_tag"
 			id: "1078C1FFEF88C971"
 			rewards: [{
-				count: 2
+				count: 5
 				id: "242D11BC4D105A59"
 				item: "minecraft:name_tag"
 				type: "item"

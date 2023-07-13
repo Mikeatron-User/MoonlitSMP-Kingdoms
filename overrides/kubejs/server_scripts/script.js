@@ -4,6 +4,11 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 ServerEvents.recipes(event => {
 	// Change recipes here
+	
+	event.replaceInput({}, 'naturalist:cooked_egg', 'farmersdelight:fried_egg');
+	
+	event.replaceOutput({}, 'naturalist:cooked_egg', 'farmersdelight:fried_egg');
+	
 	event.shapeless('kubejs:iron_coin', ['kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin', 'kubejs:copper_coin'])
 	
 	event.shapeless('5x kubejs:copper_coin', 'kubejs:iron_coin')
