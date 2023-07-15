@@ -329,36 +329,6 @@
 			x: 4.0d
 			y: 3.5d
 		}
-		{
-			id: "41C1399FAEB52F75"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B97D6A01035724B"
-				table_id: 2335786249985928350L
-				type: "loot"
-			}]
-			subtitle: "Used to store a lot of food. Food can be eaten straight from lunch box."
-			tasks: [
-				{
-					id: "58E71484E2D1DA07"
-					item: "solapplepie:lunchbag"
-					type: "item"
-				}
-				{
-					id: "223059E1764C1FD5"
-					item: "solapplepie:lunchbox"
-					type: "item"
-				}
-				{
-					id: "099D5EDDD0D15635"
-					item: "solapplepie:golden_lunchbox"
-					type: "item"
-				}
-			]
-			title: "Lunch Bags"
-			x: -4.0d
-			y: -0.5d
-		}
 	]
 	title: "Useful Utilities"
 }

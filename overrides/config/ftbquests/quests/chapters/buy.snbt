@@ -815,7 +815,7 @@
 			icon: "minecraft:oak_log"
 			id: "6C7FD564F366E836"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "582DCFC85F78EF6A"
 				item: "minecraft:oak_log"
 				type: "item"
@@ -836,7 +836,7 @@
 			icon: "minecraft:spruce_log"
 			id: "6079594CD7FF82E1"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "5CB6138194E738B9"
 				item: "minecraft:spruce_log"
 				type: "item"
@@ -858,7 +858,7 @@
 			icon: "minecraft:birch_log"
 			id: "3CC231807F095A36"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "415F2ACEC6F3A2AE"
 				item: "minecraft:birch_log"
 				type: "item"
@@ -879,7 +879,7 @@
 			icon: "minecraft:jungle_log"
 			id: "0D2C9A3A814499B7"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "6733B244DD5BBD1F"
 				item: "minecraft:jungle_log"
 				type: "item"
@@ -900,7 +900,7 @@
 			icon: "minecraft:acacia_log"
 			id: "60BE7B1F12FE0EA1"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "2A553B97982D979B"
 				item: "minecraft:acacia_log"
 				type: "item"
@@ -921,7 +921,7 @@
 			icon: "minecraft:dark_oak_log"
 			id: "1021A37AD6AE3E7B"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "4D8F5CF7B5EAE458"
 				item: "minecraft:dark_oak_log"
 				type: "item"
@@ -942,7 +942,7 @@
 			icon: "minecraft:mangrove_log"
 			id: "30A5FBD7F31DC4B0"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "7C9645755292CAC3"
 				item: "minecraft:mangrove_log"
 				type: "item"

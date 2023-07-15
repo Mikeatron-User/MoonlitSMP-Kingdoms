@@ -325,13 +325,6 @@
 					item: "minecraft:carrot"
 					type: "item"
 				}
-				{
-					consume_items: true
-					count: 64L
-					id: "5097EC6DC8E5F394"
-					item: "minecraft:carrot"
-					type: "item"
-				}
 			]
 			title: "Sell Carrots"
 			x: -5.5d
@@ -358,13 +351,6 @@
 					consume_items: true
 					count: 64L
 					id: "3517475ADA791ACC"
-					item: "minecraft:potato"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 64L
-					id: "1241AD9C28343854"
 					item: "minecraft:potato"
 					type: "item"
 				}
@@ -397,13 +383,6 @@
 					item: "minecraft:wheat"
 					type: "item"
 				}
-				{
-					consume_items: true
-					count: 64L
-					id: "3B7822E48C7B653C"
-					item: "minecraft:wheat"
-					type: "item"
-				}
 			]
 			title: "Sell Wheat"
 			x: -6.5d
@@ -430,13 +409,6 @@
 					consume_items: true
 					count: 64L
 					id: "34232E5798501748"
-					item: "minecraft:beetroot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 64L
-					id: "04C5675E0214CCAD"
 					item: "minecraft:beetroot"
 					type: "item"
 				}
@@ -486,13 +458,6 @@
 					consume_items: true
 					count: 64L
 					id: "206A726DB3CF1B70"
-					item: "minecraft:cocoa_beans"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 64L
-					id: "0FF2E4FF52114E17"
 					item: "minecraft:cocoa_beans"
 					type: "item"
 				}
